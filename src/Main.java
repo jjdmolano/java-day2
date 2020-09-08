@@ -15,6 +15,12 @@ public class Main {
         Car car = new Car();
 
         car.refuel(10);
-        car.drive(200000);
+        car.drive(210000);
+        car.drive(2000);
+        car.refuel(20);
+        car.drive(210000);
+        car.refuel(50);
+        car.refuel(20);
+        car.drive(7000);
     }
 }
